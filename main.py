@@ -39,7 +39,7 @@ while True:
     cv2.imshow("contours", thresh)
     print(contours)
     # If q is pressed terminate
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord('p'):
         break
 # Release and destroy all windows
 cap.release()
